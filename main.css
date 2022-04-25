@@ -1,0 +1,60 @@
+div {
+	background-color: #797574;
+	color: #FBF9F9;
+	font-size: 25px;
+}
+
+.vx {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	border: 1px solid pink;
+	justify-content: space-around;
+}
+
+.vx > div {
+	background-color: #F3F3F5;
+	width: 40%;
+	border: transparent;
+	font-size: 25px;
+	color: black;
+	padding: 20px;
+}
+.vx img {
+    width: 130px;
+		height: 180px
+}
+.vx .rightbox {
+	background-color: #FCF5F4;
+	font-size: 25px;
+}
+.learning {
+display: flex;
+flex-wrap: wrap;
+padding: 2rem;
+}
+@media screen and (max-width:576px) {
+	.vx {
+		display: flex;
+		flex-wrap: wrap;
+		background-color: white;
+		border: 1px solid pink;
+		justify-content: space-around;
+	}
+	.vx > div {
+		background-color: #F3F3F5;
+		width: 300px;
+		border: transparent;
+		font-size: 15px;
+		color: black;
+		padding: 20px;
+	}
+	.vx img {
+	    width: 65px;
+			height: 90px
+	}
+	.vx .rightbox {
+		background-color: #FCF5F4;
+		font-size: 15px;
+	}
+}
